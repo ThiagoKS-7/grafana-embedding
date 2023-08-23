@@ -6,7 +6,7 @@
     </p>
     <h1>Grafana Dashboard - ESP32 with DHT22</h1>
     <iframe class="iframe"
-        src="https://snapshots.raintank.io/dashboard/snapshot/2j5OSXqq8vXNKdTeO0pMtZL1f83WoqJV?orgId=2&from=1692727599064&to=1692727788061&kiosk"
+        src="https://snapshots.raintank.io/dashboard/snapshot/9XzWyt7vQPVrg7Gi3F8RhZ6Kne56FtDO?orgId=2&from=1692727599064&to=1692727788061&kiosk"
         frameborder="0"></iframe>
 </template>
 <script lang="ts">
