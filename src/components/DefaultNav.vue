@@ -58,22 +58,25 @@
         </div>
     </nav>
 </template>
-<script>
+<script lang="ts">
 import { defineComponent } from "vue";
 export default defineComponent({
     name: "DefaultNav",
     methods: {
         toggleButton() {
-            document.getElementById("navbarsExample01").classList.toggle("show")
+            const nav: any = document.getElementById("navbarsExample01");
+            nav.classList.toggle("show")
         },
-        goTo(id, path) {
+        goTo(id: string, path: string) {
             const idList = ["home", "alerts", "billing"]
             idList.forEach(element => {
                 if (element != id) {
-                    document.getElementById(element).classList.remove("active")
+                    const el: any = document.getElementById(element);
+                    el.classList.remove("active");
                 }
             });
-            document.getElementById(id).classList.toggle("active")
+            const nav: any = document.getElementById(id);
+            nav.classList.toggle("show")
             this.$router.push(path)
         }
     }
