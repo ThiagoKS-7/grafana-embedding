@@ -2,12 +2,8 @@
     <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
-                <img class="logo"
-                    src="https://static.wixstatic.com/media/77cdd2_8a5b030457014a1590f0b0b2d7e11187~mv2.png/v1/fill/w_130,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20Parks%20vermelho-site.png"
-                    alt="Logo Parks vermelho-site.png" style="width:130px;height:30px;object-fit:cover" width="130"
-                    height="30"
-                    srcset="https://static.wixstatic.com/media/77cdd2_8a5b030457014a1590f0b0b2d7e11187~mv2.png/v1/fill/w_130,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo%20Parks%20vermelho-site.png 1x, https://static.wixstatic.com/media/77cdd2_8a5b030457014a1590f0b0b2d7e11187~mv2.png/v1/fill/w_260,h_60,al_c,lg_1,q_85,enc_auto/Logo%20Parks%20vermelho-site.png 2x"
-                    fetchpriority="high" />
+                <img class="logo" src="/logo.png" alt="Logo Parks vermelho-site.png"
+                    style="width:130px;height:30px;object-fit:cover" width="130" height="30" />
             </a>
             <form role="search">
                 <input class="form-control" type="search" placeholder="Search" aria-label="Search">
