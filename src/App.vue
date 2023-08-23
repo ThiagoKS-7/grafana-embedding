@@ -1,10 +1,17 @@
-<script setup>
-import DefaultNav from "./components/DefaultNav.vue"
-</script>
 <template>
   <DefaultNav />
   <router-view />
 </template>
+<script lang="ts">
+import { defineComponent } from "vue"
+import DefaultNav from "./components/DefaultNav.vue"
+export default defineComponent({
+  name: "App",
+  components: {
+    DefaultNav
+  }
+})
+</script>
 <style scoped>
 .logo {
   height: 6em;
