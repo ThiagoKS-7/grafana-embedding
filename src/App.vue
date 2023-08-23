@@ -15,8 +15,4 @@ import DefaultNav from "./components/DefaultNav.vue"
 .logo:hover {
   filter: drop-shadow(0 0 2em #ff6964aa);
 }
-
-.navbar {
-  margin-bottom: 20px;
-}
 </style>
