@@ -1,15 +1,12 @@
 <template>
     <h1>{{ msg }}</h1>
 
-    <div class="card">
-        <button type="button" @click="count++">count is {{ count }}</button>
-    </div>
-
     <p>
         AWS IoT Core with C++ Device SDK, Rules-Engine, Timestream and Grafana example
     </p>
     <h1>Grafana Dashboard - ESP32 with DHT22</h1>
-    <iframe class="iframe" src="http://172.17.0.2:3000/public-dashboards/d9de144100654c2cb6a9ccc6f7ae0576"
+    <iframe class="iframe"
+        src="https://snapshots.raintank.io/dashboard/snapshot/4ozI8XVcO6hzW8jFlhqwZkHWqX1r6nR5?orgId=2&kiosk"
         frameborder="0"></iframe>
 </template>
 <script lang="ts">

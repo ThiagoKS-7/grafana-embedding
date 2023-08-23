@@ -1,12 +1,10 @@
+<script setup>
+import DefaultNav from "./components/DefaultNav.vue"
+</script>
 <template>
-  <div>
-    <a href="https://www.parks.com.br/quem-somos" target="_blank">
-      <img src="/parks.png" class="logo" alt="Parks logo" style="border-radius: 8px;" />
-    </a>
-  </div>
+  <DefaultNav />
   <router-view />
 </template>
-
 <style scoped>
 .logo {
   height: 6em;
