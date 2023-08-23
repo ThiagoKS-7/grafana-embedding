@@ -1,14 +1,10 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
   <div>
     <a href="https://www.parks.com.br/quem-somos" target="_blank">
-      <img src="/parks.png" class="logo" alt="Vite logo" style="border-radius: 8px;" />
+      <img src="/parks.png" class="logo" alt="Parks logo" style="border-radius: 8px;" />
     </a>
   </div>
-  <HelloWorld msg="Parks Smart" />
+  <router-view />
 </template>
 
 <style scoped>
