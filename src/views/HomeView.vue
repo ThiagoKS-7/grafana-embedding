@@ -5,9 +5,17 @@
         AWS IoT Core with C++ Device SDK, Rules-Engine, Timestream and Grafana example
     </p>
     <h1>Grafana Dashboard - ESP32 with DHT22</h1>
-    <iframe class="iframe"
-        src="https://snapshots.raintank.io/dashboard/snapshot/9XzWyt7vQPVrg7Gi3F8RhZ6Kne56FtDO?orgId=2&from=1692727599064&to=1692727788061&kiosk"
-        frameborder="0"></iframe>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <iframe class="iframe"
+            src="https://snapshots.raintank.io/dashboard/snapshot/9XzWyt7vQPVrg7Gi3F8RhZ6Kne56FtDO?orgId=2&kiosk"
+            frameborder="0"></iframe>
+        <small>
+            <a
+                href="ec2-52-67-96-192.sa-east-1.compute.amazonaws.com:3000/public-dashboards/2c96353701cb430d9f092d0db1d39e3b?orgId=1&from=1692962612866&to=1692962908893&refresh=1m">
+                Ver em tempo real
+            </a>
+        </small>
+    </div>
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
